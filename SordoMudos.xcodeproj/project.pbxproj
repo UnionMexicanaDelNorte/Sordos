@@ -1,0 +1,1523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09022FC91ADAD37800BE26D1 /* esperanza.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09022FC81ADAD37800BE26D1 /* esperanza.mp4 */; };
+		0903FAAE1ADB4E2E008A4F48 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0903FAAD1ADB4E2E008A4F48 /* InterfaceController.m */; };
+		0903FAB11ADB4E2E008A4F48 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0903FAB01ADB4E2E008A4F48 /* NotificationController.m */; };
+		0903FAB31ADB4E2E008A4F48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0903FAB21ADB4E2E008A4F48 /* Images.xcassets */; };
+		0903FAB71ADB4E2E008A4F48 /* SordoMudos WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0903FAB61ADB4E2E008A4F48 /* SordoMudos WatchKit App.app */; };
+		0903FABF1ADB4E2E008A4F48 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0903FABD1ADB4E2E008A4F48 /* Interface.storyboard */; };
+		0903FAC11ADB4E2E008A4F48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0903FAC01ADB4E2E008A4F48 /* Images.xcassets */; };
+		0903FAC41ADB4E2E008A4F48 /* SordoMudos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0903FAA71ADB4E2D008A4F48 /* SordoMudos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0903FACE1ADB64B3008A4F48 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 0903FACD1ADB64B3008A4F48 /* a.png */; };
+		0903FAD01ADB6646008A4F48 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0903FACF1ADB6646008A4F48 /* Icon-72.png */; };
+		0903FAD21ADB6662008A4F48 /* Icon-98@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0903FAD11ADB6662008A4F48 /* Icon-98@2x.png */; };
+		095293BF1ADB7B5400F18405 /*  .png in Resources */ = {isa = PBXBuildFile; fileRef = 095293A51ADB7B5400F18405 /*  .png */; };
+		095293C01ADB7B5400F18405 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293A61ADB7B5400F18405 /* b.png */; };
+		095293C11ADB7B5400F18405 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293A71ADB7B5400F18405 /* c.png */; };
+		095293C21ADB7B5400F18405 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293A81ADB7B5400F18405 /* d.png */; };
+		095293C31ADB7B5400F18405 /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293A91ADB7B5400F18405 /* e.png */; };
+		095293C41ADB7B5400F18405 /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AA1ADB7B5400F18405 /* f.png */; };
+		095293C51ADB7B5400F18405 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AB1ADB7B5400F18405 /* g.png */; };
+		095293C61ADB7B5400F18405 /* h.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AC1ADB7B5400F18405 /* h.png */; };
+		095293C71ADB7B5400F18405 /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AD1ADB7B5400F18405 /* i.png */; };
+		095293C81ADB7B5400F18405 /* j.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AE1ADB7B5400F18405 /* j.png */; };
+		095293C91ADB7B5400F18405 /* k.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293AF1ADB7B5400F18405 /* k.png */; };
+		095293CA1ADB7B5400F18405 /* l.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B01ADB7B5400F18405 /* l.png */; };
+		095293CB1ADB7B5400F18405 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B11ADB7B5400F18405 /* m.png */; };
+		095293CC1ADB7B5400F18405 /* n.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B21ADB7B5400F18405 /* n.png */; };
+		095293CD1ADB7B5400F18405 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B31ADB7B5400F18405 /* o.png */; };
+		095293CE1ADB7B5400F18405 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B41ADB7B5400F18405 /* p.png */; };
+		095293CF1ADB7B5400F18405 /* q.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B51ADB7B5400F18405 /* q.png */; };
+		095293D01ADB7B5400F18405 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B61ADB7B5400F18405 /* r.png */; };
+		095293D11ADB7B5400F18405 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B71ADB7B5400F18405 /* s.png */; };
+		095293D21ADB7B5400F18405 /* t.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B81ADB7B5400F18405 /* t.png */; };
+		095293D31ADB7B5400F18405 /* u.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293B91ADB7B5400F18405 /* u.png */; };
+		095293D41ADB7B5400F18405 /* v.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293BA1ADB7B5400F18405 /* v.png */; };
+		095293D51ADB7B5400F18405 /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293BB1ADB7B5400F18405 /* w.png */; };
+		095293D61ADB7B5400F18405 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293BC1ADB7B5400F18405 /* x.png */; };
+		095293D71ADB7B5400F18405 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293BD1ADB7B5400F18405 /* y.png */; };
+		095293D81ADB7B5400F18405 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 095293BE1ADB7B5400F18405 /* z.png */; };
+		095293DE1ADB824000F18405 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 095293DD1ADB824000F18405 /* MMWormhole.m */; };
+		095293E11ADB82D400F18405 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095293E01ADB82D400F18405 /* MessageViewController.m */; };
+		095293E31ADB89C400F18405 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095293E21ADB89C400F18405 /* CoreFoundation.framework */; };
+		095293E51ADB89DF00F18405 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095293E41ADB89DF00F18405 /* WatchKit.framework */; };
+		095293E71ADB89F100F18405 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095293E61ADB89F100F18405 /* NotificationCenter.framework */; };
+		095293EC1ADB8D7200F18405 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 095293DD1ADB824000F18405 /* MMWormhole.m */; };
+		095E718D1AABDE6B00AA822D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E718C1AABDE6B00AA822D /* main.m */; };
+		095E71901AABDE6B00AA822D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E718F1AABDE6B00AA822D /* AppDelegate.m */; };
+		095E71931AABDE6B00AA822D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E71921AABDE6B00AA822D /* MasterViewController.m */; };
+		095E71961AABDE6B00AA822D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E71951AABDE6B00AA822D /* DetailViewController.m */; };
+		095E71991AABDE6B00AA822D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095E71971AABDE6B00AA822D /* Main.storyboard */; };
+		095E719B1AABDE6B00AA822D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095E719A1AABDE6B00AA822D /* Images.xcassets */; };
+		095E719E1AABDE6B00AA822D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095E719C1AABDE6B00AA822D /* LaunchScreen.xib */; };
+		095E71AA1AABDE6B00AA822D /* SordoMudosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 095E71A91AABDE6B00AA822D /* SordoMudosTests.m */; };
+		09ACBC181AB3FC90007635CD /* Aaron.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB881AB3FC8F007635CD /* Aaron.mp4 */; };
+		09ACBC191AB3FC90007635CD /* Abel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB891AB3FC8F007635CD /* Abel.mp4 */; };
+		09ACBC1A1AB3FC90007635CD /* Abraham.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8A1AB3FC8F007635CD /* Abraham.mp4 */; };
+		09ACBC1B1AB3FC90007635CD /* Adan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8B1AB3FC8F007635CD /* Adan.mp4 */; };
+		09ACBC1C1AB3FC90007635CD /* adorar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8C1AB3FC8F007635CD /* adorar.mp4 */; };
+		09ACBC1D1AB3FC90007635CD /* Adulterio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8D1AB3FC8F007635CD /* Adulterio.mp4 */; };
+		09ACBC1E1AB3FC90007635CD /* adventista.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8E1AB3FC8F007635CD /* adventista.mp4 */; };
+		09ACBC1F1AB3FC90007635CD /* alabar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB8F1AB3FC8F007635CD /* alabar.mp4 */; };
+		09ACBC201AB3FC90007635CD /* Aleluya.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB901AB3FC8F007635CD /* Aleluya.mp4 */; };
+		09ACBC211AB3FC90007635CD /* altar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB911AB3FC8F007635CD /* altar.mp4 */; };
+		09ACBC221AB3FC90007635CD /* amen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB921AB3FC8F007635CD /* amen.mp4 */; };
+		09ACBC231AB3FC90007635CD /* Anciano (cargo).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB931AB3FC8F007635CD /* Anciano (cargo).mp4 */; };
+		09ACBC241AB3FC90007635CD /* Angel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB941AB3FC8F007635CD /* Angel.mp4 */; };
+		09ACBC251AB3FC90007635CD /* Antiguo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB951AB3FC8F007635CD /* Antiguo.mp4 */; };
+		09ACBC261AB3FC90007635CD /* apocalipsis.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB961AB3FC8F007635CD /* apocalipsis.mp4 */; };
+		09ACBC271AB3FC90007635CD /* apostol.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB971AB3FC8F007635CD /* apostol.mp4 */; };
+		09ACBC281AB3FC90007635CD /* Asociacion (campo).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB981AB3FC8F007635CD /* Asociacion (campo).mp4 */; };
+		09ACBC291AB3FC90007635CD /* Ayuno.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB991AB3FC8F007635CD /* Ayuno.mp4 */; };
+		09ACBC2A1AB3FC90007635CD /* bautizar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9A1AB3FC8F007635CD /* bautizar.mp4 */; };
+		09ACBC2B1AB3FC90007635CD /* Belen ciudad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9B1AB3FC8F007635CD /* Belen ciudad.mp4 */; };
+		09ACBC2C1AB3FC90007635CD /* Bendecir.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9C1AB3FC8F007635CD /* Bendecir.mp4 */; };
+		09ACBC2D1AB3FC90007635CD /* Biblia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9D1AB3FC8F007635CD /* Biblia.mp4 */; };
+		09ACBC2E1AB3FC90007635CD /* Booz.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9E1AB3FC8F007635CD /* Booz.mp4 */; };
+		09ACBC2F1AB3FC90007635CD /* Cain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBB9F1AB3FC8F007635CD /* Cain.mp4 */; };
+		09ACBC301AB3FC90007635CD /* capitulo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA01AB3FC8F007635CD /* capitulo.mp4 */; };
+		09ACBC311AB3FC90007635CD /* catolico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA11AB3FC8F007635CD /* catolico.mp4 */; };
+		09ACBC321AB3FC90007635CD /* Cielo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA21AB3FC8F007635CD /* Cielo.mp4 */; };
+		09ACBC331AB3FC90007635CD /* Club Aventureros.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA31AB3FC8F007635CD /* Club Aventureros.mp4 */; };
+		09ACBC341AB3FC90007635CD /* Club Conquistadores.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA41AB3FC8F007635CD /* Club Conquistadores.mp4 */; };
+		09ACBC351AB3FC90007635CD /* club Guias Mayores.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA51AB3FC8F007635CD /* club Guias Mayores.mp4 */; };
+		09ACBC361AB3FC90007635CD /* colportor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA61AB3FC8F007635CD /* colportor.mp4 */; };
+		09ACBC371AB3FC90007635CD /* Cristiano.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA71AB3FC8F007635CD /* Cristiano.mp4 */; };
+		09ACBC381AB3FC90007635CD /* Cristo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA81AB3FC8F007635CD /* Cristo.mp4 */; };
+		09ACBC391AB3FC90007635CD /* culto divnino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBA91AB3FC8F007635CD /* culto divnino.mp4 */; };
+		09ACBC3A1AB3FC90007635CD /* daniel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAA1AB3FC8F007635CD /* daniel.mp4 */; };
+		09ACBC3B1AB3FC90007635CD /* david.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAB1AB3FC8F007635CD /* david.mp4 */; };
+		09ACBC3C1AB3FC90007635CD /* Diablo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAC1AB3FC8F007635CD /* Diablo.mp4 */; };
+		09ACBC3D1AB3FC90007635CD /* Diaconisa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAD1AB3FC8F007635CD /* Diaconisa.mp4 */; };
+		09ACBC3E1AB3FC90007635CD /* Diacono.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAE1AB3FC8F007635CD /* Diacono.mp4 */; };
+		09ACBC3F1AB3FC90007635CD /* Dios.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBAF1AB3FC8F007635CD /* Dios.mp4 */; };
+		09ACBC401AB3FC90007635CD /* Discipulo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB01AB3FC8F007635CD /* Discipulo.mp4 */; };
+		09ACBC411AB3FC90007635CD /* distrito.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB11AB3FC8F007635CD /* distrito.mp4 */; };
+		09ACBC421AB3FC90007635CD /* Division (departamental).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB21AB3FC8F007635CD /* Division (departamental).mp4 */; };
+		09ACBC431AB3FC90007635CD /* eden.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB31AB3FC8F007635CD /* eden.mp4 */; };
+		09ACBC441AB3FC90007635CD /* EGW.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB41AB3FC8F007635CD /* EGW.mp4 */; };
+		09ACBC451AB3FC90007635CD /* elias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB51AB3FC8F007635CD /* elias.mp4 */; };
+		09ACBC461AB3FC90007635CD /* eliseo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB61AB3FC8F007635CD /* eliseo.mp4 */; };
+		09ACBC471AB3FC90007635CD /* Emmanuel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB71AB3FC8F007635CD /* Emmanuel.mp4 */; };
+		09ACBC481AB3FC90007635CD /* Enoc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB81AB3FC8F007635CD /* Enoc.mp4 */; };
+		09ACBC491AB3FC90007635CD /* Esau.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBB91AB3FC8F007635CD /* Esau.mp4 */; };
+		09ACBC4A1AB3FC90007635CD /* escuela.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBA1AB3FC8F007635CD /* escuela.mp4 */; };
+		09ACBC4B1AB3FC90007635CD /* Espiritu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBB1AB3FC8F007635CD /* Espiritu.mp4 */; };
+		09ACBC4C1AB3FC90007635CD /* esther.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBC1AB3FC8F007635CD /* esther.mp4 */; };
+		09ACBC4D1AB3FC90007635CD /* eternidad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBD1AB3FC8F007635CD /* eternidad.mp4 */; };
+		09ACBC4E1AB3FC90007635CD /* Eva.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBE1AB3FC8F007635CD /* Eva.mp4 */; };
+		09ACBC4F1AB3FC90007635CD /* Evangelio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBBF1AB3FC8F007635CD /* Evangelio.mp4 */; };
+		09ACBC501AB3FC90007635CD /* Evangelios.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC01AB3FC8F007635CD /* Evangelios.mp4 */; };
+		09ACBC511AB3FC90007635CD /* faraon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC11AB3FC8F007635CD /* faraon.mp4 */; };
+		09ACBC521AB3FC90007635CD /* Fariseo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC21AB3FC8F007635CD /* Fariseo.mp4 */; };
+		09ACBC531AB3FC90007635CD /* feliz.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC31AB3FC8F007635CD /* feliz.mp4 */; };
+		09ACBC541AB3FC90007635CD /* Filemon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC41AB3FC8F007635CD /* Filemon.mp4 */; };
+		09ACBC551AB3FC90007635CD /* gloria.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC51AB3FC8F007635CD /* gloria.mp4 */; };
+		09ACBC561AB3FC90007635CD /* goliat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC61AB3FC8F007635CD /* goliat.mp4 */; };
+		09ACBC571AB3FC90007635CD /* gomorra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC71AB3FC8F007635CD /* gomorra.mp4 */; };
+		09ACBC581AB3FC90007635CD /* Gracia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC81AB3FC8F007635CD /* Gracia.mp4 */; };
+		09ACBC591AB3FC90007635CD /* hermano.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBC91AB3FC8F007635CD /* hermano.mp4 */; };
+		09ACBC5A1AB3FC90007635CD /* Hijo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCA1AB3FC8F007635CD /* Hijo.mp4 */; };
+		09ACBC5B1AB3FC90007635CD /* himno.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCB1AB3FC8F007635CD /* himno.mp4 */; };
+		09ACBC5C1AB3FC90007635CD /* idolo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCC1AB3FC8F007635CD /* idolo.mp4 */; };
+		09ACBC5D1AB3FC90007635CD /* iglesia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCD1AB3FC8F007635CD /* iglesia.mp4 */; };
+		09ACBC5E1AB3FC90007635CD /* infiel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCE1AB3FC8F007635CD /* infiel.mp4 */; };
+		09ACBC5F1AB3FC90007635CD /* Isaac.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBCF1AB3FC8F007635CD /* Isaac.mp4 */; };
+		09ACBC601AB3FC90007635CD /* Isaias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD01AB3FC8F007635CD /* Isaias.mp4 */; };
+		09ACBC611AB3FC90007635CD /* jacob.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD11AB3FC8F007635CD /* jacob.mp4 */; };
+		09ACBC621AB3FC90007635CD /* Jehova.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD21AB3FC8F007635CD /* Jehova.mp4 */; };
+		09ACBC631AB3FC90007635CD /* jeremias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD31AB3FC8F007635CD /* jeremias.mp4 */; };
+		09ACBC641AB3FC90007635CD /* jerico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD41AB3FC8F007635CD /* jerico.mp4 */; };
+		09ACBC651AB3FC90007635CD /* jerusalen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD51AB3FC8F007635CD /* jerusalen.mp4 */; };
+		09ACBC661AB3FC90007635CD /* Jesus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD61AB3FC8F007635CD /* Jesus.mp4 */; };
+		09ACBC671AB3FC90007635CD /* Job.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD71AB3FC8F007635CD /* Job.mp4 */; };
+		09ACBC681AB3FC90007635CD /* Jonas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD81AB3FC8F007635CD /* Jonas.mp4 */; };
+		09ACBC691AB3FC90007635CD /* Jose (Egipto).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBD91AB3FC8F007635CD /* Jose (Egipto).mp4 */; };
+		09ACBC6A1AB3FC90007635CD /* jose (Jesus).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDA1AB3FC8F007635CD /* jose (Jesus).mp4 */; };
+		09ACBC6B1AB3FC90007635CD /* Juan el bautista.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDB1AB3FC8F007635CD /* Juan el bautista.mp4 */; };
+		09ACBC6C1AB3FC90007635CD /* juan evangelio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDC1AB3FC8F007635CD /* juan evangelio.mp4 */; };
+		09ACBC6D1AB3FC90007635CD /* Juda (tribu).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDD1AB3FC8F007635CD /* Juda (tribu).mp4 */; };
+		09ACBC6E1AB3FC90007635CD /* judas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDE1AB3FC8F007635CD /* judas.mp4 */; };
+		09ACBC6F1AB3FC90007635CD /* Lecciòn (Esc. sabatica).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBDF1AB3FC8F007635CD /* Lecciòn (Esc. sabatica).mp4 */; };
+		09ACBC701AB3FC90007635CD /* Lepra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE01AB3FC8F007635CD /* Lepra.mp4 */; };
+		09ACBC711AB3FC90007635CD /* ley.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE11AB3FC8F007635CD /* ley.mp4 */; };
+		09ACBC721AB3FC90007635CD /* loor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE21AB3FC8F007635CD /* loor.mp4 */; };
+		09ACBC731AB3FC90007635CD /* lucas discipulo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE31AB3FC8F007635CD /* lucas discipulo.mp4 */; };
+		09ACBC741AB3FC90007635CD /* lucas evangelio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE41AB3FC8F007635CD /* lucas evangelio.mp4 */; };
+		09ACBC751AB3FC90007635CD /* mandamientos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE51AB3FC8F007635CD /* mandamientos.mp4 */; };
+		09ACBC761AB3FC90007635CD /* marcos evangelio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE61AB3FC8F007635CD /* marcos evangelio.mp4 */; };
+		09ACBC771AB3FC90007635CD /* maria (Jesus).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE71AB3FC8F007635CD /* maria (Jesus).mp4 */; };
+		09ACBC781AB3FC90007635CD /* mateo evangelio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE81AB3FC8F007635CD /* mateo evangelio.mp4 */; };
+		09ACBC791AB3FC90007635CD /* matinal (devocional).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBE91AB3FC8F007635CD /* matinal (devocional).mp4 */; };
+		09ACBC7A1AB3FC90007635CD /* Mesias.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBEA1AB3FC8F007635CD /* Mesias.mp4 */; };
+		09ACBC7B1AB3FC90007635CD /* miembro (persona).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBEB1AB3FC8F007635CD /* miembro (persona).mp4 */; };
+		09ACBC7C1AB3FC90007635CD /* misericordia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBEC1AB3FC8F007635CD /* misericordia.mp4 */; };
+		09ACBC7D1AB3FC90007635CD /* Mision (campo).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBED1AB3FC8F007635CD /* Mision (campo).mp4 */; };
+		09ACBC7E1AB3FC90007635CD /* Misionero.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBEE1AB3FC8F007635CD /* Misionero.mp4 */; };
+		09ACBC7F1AB3FC90007635CD /* Moab.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBEF1AB3FC8F007635CD /* Moab.mp4 */; };
+		09ACBC801AB3FC90007635CD /* Moises.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF01AB3FC8F007635CD /* Moises.mp4 */; };
+		09ACBC811AB3FC90007635CD /* nabucodonosor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF11AB3FC8F007635CD /* nabucodonosor.mp4 */; };
+		09ACBC821AB3FC90007635CD /* nazareth.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF21AB3FC8F007635CD /* nazareth.mp4 */; };
+		09ACBC831AB3FC90007635CD /* Ninive.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF31AB3FC8F007635CD /* Ninive.mp4 */; };
+		09ACBC841AB3FC90007635CD /* Noe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF41AB3FC8F007635CD /* Noe.mp4 */; };
+		09ACBC851AB3FC90007635CD /* Noemi (Ruth).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF51AB3FC8F007635CD /* Noemi (Ruth).mp4 */; };
+		09ACBC861AB3FC90007635CD /* nuevo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF61AB3FC8F007635CD /* nuevo.mp4 */; };
+		09ACBC871AB3FC90007635CD /* ofrenda.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF71AB3FC8F007635CD /* ofrenda.mp4 */; };
+		09ACBC881AB3FC90007635CD /* oh.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF81AB3FC8F007635CD /* oh.mp4 */; };
+		09ACBC891AB3FC90007635CD /* Onesimo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBF91AB3FC8F007635CD /* Onesimo.mp4 */; };
+		09ACBC8A1AB3FC90007635CD /* oracion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFA1AB3FC8F007635CD /* oracion.mp4 */; };
+		09ACBC8B1AB3FC90007635CD /* Orfa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFB1AB3FC8F007635CD /* Orfa.mp4 */; };
+		09ACBC8C1AB3FC90007635CD /* pablo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFC1AB3FC8F007635CD /* pablo.mp4 */; };
+		09ACBC8D1AB3FC90007635CD /* Padre.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFD1AB3FC8F007635CD /* Padre.mp4 */; };
+		09ACBC8E1AB3FC90007635CD /* Papa catolico.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFE1AB3FC8F007635CD /* Papa catolico.mp4 */; };
+		09ACBC8F1AB3FC90007635CD /* Pastor (Iglesia).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBBFF1AB3FC8F007635CD /* Pastor (Iglesia).mp4 */; };
+		09ACBC901AB3FC90007635CD /* Pastor (rebaño).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC001AB3FC8F007635CD /* Pastor (rebaño).mp4 */; };
+		09ACBC911AB3FC90007635CD /* Pecado.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC011AB3FC8F007635CD /* Pecado.mp4 */; };
+		09ACBC921AB3FC90007635CD /* pedro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC021AB3FC8F007635CD /* pedro.mp4 */; };
+		09ACBC931AB3FC90007635CD /* predicar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC031AB3FC90007635CD /* predicar.mp4 */; };
+		09ACBC941AB3FC90007635CD /* Profecia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC041AB3FC90007635CD /* Profecia.mp4 */; };
+		09ACBC951AB3FC90007635CD /* Profeta.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC051AB3FC90007635CD /* Profeta.mp4 */; };
+		09ACBC961AB3FC90007635CD /* reverencia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC061AB3FC90007635CD /* reverencia.mp4 */; };
+		09ACBC971AB3FC90007635CD /* Roma.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC071AB3FC90007635CD /* Roma.mp4 */; };
+		09ACBC981AB3FC90007635CD /* ruth.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC081AB3FC90007635CD /* ruth.mp4 */; };
+		09ACBC991AB3FC90007635CD /* sabado.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC091AB3FC90007635CD /* sabado.mp4 */; };
+		09ACBC9A1AB3FC90007635CD /* salmos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0A1AB3FC90007635CD /* salmos.mp4 */; };
+		09ACBC9B1AB3FC90007635CD /* salomon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0B1AB3FC90007635CD /* salomon.mp4 */; };
+		09ACBC9C1AB3FC90007635CD /* samuel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0C1AB3FC90007635CD /* samuel.mp4 */; };
+		09ACBC9D1AB3FC90007635CD /* Sanson.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0D1AB3FC90007635CD /* Sanson.mp4 */; };
+		09ACBC9E1AB3FC90007635CD /* Santo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0E1AB3FC90007635CD /* Santo.mp4 */; };
+		09ACBC9F1AB3FC90007635CD /* semana.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC0F1AB3FC90007635CD /* semana.mp4 */; };
+		09ACBCA01AB3FC90007635CD /* Señor.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC101AB3FC90007635CD /* Señor.mp4 */; };
+		09ACBCA11AB3FC90007635CD /* sermon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC111AB3FC90007635CD /* sermon.mp4 */; };
+		09ACBCA21AB3FC90007635CD /* silencio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC121AB3FC90007635CD /* silencio.mp4 */; };
+		09ACBCA31AB3FC90007635CD /* templo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC131AB3FC90007635CD /* templo.mp4 */; };
+		09ACBCA41AB3FC90007635CD /* testamento.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC141AB3FC90007635CD /* testamento.mp4 */; };
+		09ACBCA51AB3FC90007635CD /* Timoteo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC151AB3FC90007635CD /* Timoteo.mp4 */; };
+		09ACBCA61AB3FC90007635CD /* Union (departamental).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC161AB3FC90007635CD /* Union (departamental).mp4 */; };
+		09ACBCA71AB3FC90007635CD /* versiculo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09ACBC171AB3FC90007635CD /* versiculo.mp4 */; };
+		09ACBCAA1AB3FDDF007635CD /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ACBCA91AB3FDDF007635CD /* VideoViewController.m */; };
+		09ACBCAC1AB3FF57007635CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ACBCAB1AB3FF57007635CD /* AVFoundation.framework */; };
+		09ACBCAE1AB4092B007635CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ACBCAD1AB4092B007635CD /* MediaPlayer.framework */; };
+		09ACBCB11AB5FAF2007635CD /* FraseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ACBCB01AB5FAF2007635CD /* FraseViewController.m */; };
+		09ACBCB41AB68913007635CD /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ACBCB31AB68913007635CD /* PlayerViewController.m */; };
+		09ACBCB61AB689DA007635CD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ACBCB51AB689DA007635CD /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0903FAB81ADB4E2E008A4F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095E717F1AABDE6B00AA822D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0903FAB51ADB4E2E008A4F48;
+			remoteInfo = "SordoMudos WatchKit App";
+		};
+		0903FAC21ADB4E2E008A4F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095E717F1AABDE6B00AA822D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0903FAA61ADB4E2D008A4F48;
+			remoteInfo = "SordoMudos WatchKit Extension";
+		};
+		095E71A41AABDE6B00AA822D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095E717F1AABDE6B00AA822D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095E71861AABDE6B00AA822D;
+			remoteInfo = SordoMudos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0903FACB1ADB4E2E008A4F48 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0903FAC41ADB4E2E008A4F48 /* SordoMudos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09022FC81ADAD37800BE26D1 /* esperanza.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = esperanza.mp4; path = ../../../../../../Documents/esperanza.mp4; sourceTree = "<group>"; };
+		0903FAA71ADB4E2D008A4F48 /* SordoMudos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SordoMudos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0903FAAA1ADB4E2E008A4F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0903FAAB1ADB4E2E008A4F48 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0903FAAC1ADB4E2E008A4F48 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		0903FAAD1ADB4E2E008A4F48 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		0903FAAF1ADB4E2E008A4F48 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		0903FAB01ADB4E2E008A4F48 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		0903FAB21ADB4E2E008A4F48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0903FAB61ADB4E2E008A4F48 /* SordoMudos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SordoMudos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0903FABC1ADB4E2E008A4F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0903FABE1ADB4E2E008A4F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0903FAC01ADB4E2E008A4F48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0903FACD1ADB64B3008A4F48 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = ../../../../../Documents/letras/a.png; sourceTree = "<group>"; };
+		0903FACF1ADB6646008A4F48 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../../../../Downloads/icon (21)/ios/Icon-72.png"; sourceTree = "<group>"; };
+		0903FAD11ADB6662008A4F48 /* Icon-98@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-98@2x.png"; path = "../../../../../Downloads/icon (21)/watchkit/AppIcon.appiconset/Icon-98@2x.png"; sourceTree = "<group>"; };
+		095293A51ADB7B5400F18405 /*  .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = " .png"; path = "../../../../../Documents/letras/ .png"; sourceTree = "<group>"; };
+		095293A61ADB7B5400F18405 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b.png; path = ../../../../../Documents/letras/b.png; sourceTree = "<group>"; };
+		095293A71ADB7B5400F18405 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c.png; path = ../../../../../Documents/letras/c.png; sourceTree = "<group>"; };
+		095293A81ADB7B5400F18405 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = d.png; path = ../../../../../Documents/letras/d.png; sourceTree = "<group>"; };
+		095293A91ADB7B5400F18405 /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e.png; path = ../../../../../Documents/letras/e.png; sourceTree = "<group>"; };
+		095293AA1ADB7B5400F18405 /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f.png; path = ../../../../../Documents/letras/f.png; sourceTree = "<group>"; };
+		095293AB1ADB7B5400F18405 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = g.png; path = ../../../../../Documents/letras/g.png; sourceTree = "<group>"; };
+		095293AC1ADB7B5400F18405 /* h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = h.png; path = ../../../../../Documents/letras/h.png; sourceTree = "<group>"; };
+		095293AD1ADB7B5400F18405 /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = i.png; path = ../../../../../Documents/letras/i.png; sourceTree = "<group>"; };
+		095293AE1ADB7B5400F18405 /* j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = j.png; path = ../../../../../Documents/letras/j.png; sourceTree = "<group>"; };
+		095293AF1ADB7B5400F18405 /* k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = k.png; path = ../../../../../Documents/letras/k.png; sourceTree = "<group>"; };
+		095293B01ADB7B5400F18405 /* l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = l.png; path = ../../../../../Documents/letras/l.png; sourceTree = "<group>"; };
+		095293B11ADB7B5400F18405 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = m.png; path = ../../../../../Documents/letras/m.png; sourceTree = "<group>"; };
+		095293B21ADB7B5400F18405 /* n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = n.png; path = ../../../../../Documents/letras/n.png; sourceTree = "<group>"; };
+		095293B31ADB7B5400F18405 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../../Documents/letras/o.png; sourceTree = "<group>"; };
+		095293B41ADB7B5400F18405 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p.png; path = ../../../../../Documents/letras/p.png; sourceTree = "<group>"; };
+		095293B51ADB7B5400F18405 /* q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = q.png; path = ../../../../../Documents/letras/q.png; sourceTree = "<group>"; };
+		095293B61ADB7B5400F18405 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = r.png; path = ../../../../../Documents/letras/r.png; sourceTree = "<group>"; };
+		095293B71ADB7B5400F18405 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = s.png; path = ../../../../../Documents/letras/s.png; sourceTree = "<group>"; };
+		095293B81ADB7B5400F18405 /* t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = t.png; path = ../../../../../Documents/letras/t.png; sourceTree = "<group>"; };
+		095293B91ADB7B5400F18405 /* u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = u.png; path = ../../../../../Documents/letras/u.png; sourceTree = "<group>"; };
+		095293BA1ADB7B5400F18405 /* v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v.png; path = ../../../../../Documents/letras/v.png; sourceTree = "<group>"; };
+		095293BB1ADB7B5400F18405 /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = w.png; path = ../../../../../Documents/letras/w.png; sourceTree = "<group>"; };
+		095293BC1ADB7B5400F18405 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../../Documents/letras/x.png; sourceTree = "<group>"; };
+		095293BD1ADB7B5400F18405 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y.png; path = ../../../../../Documents/letras/y.png; sourceTree = "<group>"; };
+		095293BE1ADB7B5400F18405 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = z.png; path = ../../../../../Documents/letras/z.png; sourceTree = "<group>"; };
+		095293D91ADB7EE600F18405 /* SordoMudos WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SordoMudos WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		095293DA1ADB802D00F18405 /* SordoMudos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SordoMudos.entitlements; sourceTree = "<group>"; };
+		095293DC1ADB824000F18405 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		095293DD1ADB824000F18405 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		095293DF1ADB82D400F18405 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		095293E01ADB82D400F18405 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		095293E21ADB89C400F18405 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		095293E41ADB89DF00F18405 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		095293E61ADB89F100F18405 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		095E71871AABDE6B00AA822D /* SordoMudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SordoMudos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		095E718B1AABDE6B00AA822D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095E718C1AABDE6B00AA822D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		095E718E1AABDE6B00AA822D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		095E718F1AABDE6B00AA822D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		095E71911AABDE6B00AA822D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		095E71921AABDE6B00AA822D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		095E71941AABDE6B00AA822D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		095E71951AABDE6B00AA822D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		095E71981AABDE6B00AA822D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		095E719A1AABDE6B00AA822D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		095E719D1AABDE6B00AA822D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		095E71A31AABDE6B00AA822D /* SordoMudosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SordoMudosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095E71A81AABDE6B00AA822D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095E71A91AABDE6B00AA822D /* SordoMudosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SordoMudosTests.m; sourceTree = "<group>"; };
+		09ACBB881AB3FC8F007635CD /* Aaron.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aaron.mp4; sourceTree = "<group>"; };
+		09ACBB891AB3FC8F007635CD /* Abel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abel.mp4; sourceTree = "<group>"; };
+		09ACBB8A1AB3FC8F007635CD /* Abraham.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abraham.mp4; sourceTree = "<group>"; };
+		09ACBB8B1AB3FC8F007635CD /* Adan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adan.mp4; sourceTree = "<group>"; };
+		09ACBB8C1AB3FC8F007635CD /* adorar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adorar.mp4; sourceTree = "<group>"; };
+		09ACBB8D1AB3FC8F007635CD /* Adulterio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adulterio.mp4; sourceTree = "<group>"; };
+		09ACBB8E1AB3FC8F007635CD /* adventista.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = adventista.mp4; sourceTree = "<group>"; };
+		09ACBB8F1AB3FC8F007635CD /* alabar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alabar.mp4; sourceTree = "<group>"; };
+		09ACBB901AB3FC8F007635CD /* Aleluya.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aleluya.mp4; sourceTree = "<group>"; };
+		09ACBB911AB3FC8F007635CD /* altar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = altar.mp4; sourceTree = "<group>"; };
+		09ACBB921AB3FC8F007635CD /* amen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = amen.mp4; sourceTree = "<group>"; };
+		09ACBB931AB3FC8F007635CD /* Anciano (cargo).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anciano (cargo).mp4"; sourceTree = "<group>"; };
+		09ACBB941AB3FC8F007635CD /* Angel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Angel.mp4; sourceTree = "<group>"; };
+		09ACBB951AB3FC8F007635CD /* Antiguo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Antiguo.mp4; sourceTree = "<group>"; };
+		09ACBB961AB3FC8F007635CD /* apocalipsis.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = apocalipsis.mp4; sourceTree = "<group>"; };
+		09ACBB971AB3FC8F007635CD /* apostol.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = apostol.mp4; sourceTree = "<group>"; };
+		09ACBB981AB3FC8F007635CD /* Asociacion (campo).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asociacion (campo).mp4"; sourceTree = "<group>"; };
+		09ACBB991AB3FC8F007635CD /* Ayuno.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ayuno.mp4; sourceTree = "<group>"; };
+		09ACBB9A1AB3FC8F007635CD /* bautizar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bautizar.mp4; sourceTree = "<group>"; };
+		09ACBB9B1AB3FC8F007635CD /* Belen ciudad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Belen ciudad.mp4"; sourceTree = "<group>"; };
+		09ACBB9C1AB3FC8F007635CD /* Bendecir.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bendecir.mp4; sourceTree = "<group>"; };
+		09ACBB9D1AB3FC8F007635CD /* Biblia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Biblia.mp4; sourceTree = "<group>"; };
+		09ACBB9E1AB3FC8F007635CD /* Booz.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Booz.mp4; sourceTree = "<group>"; };
+		09ACBB9F1AB3FC8F007635CD /* Cain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cain.mp4; sourceTree = "<group>"; };
+		09ACBBA01AB3FC8F007635CD /* capitulo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = capitulo.mp4; sourceTree = "<group>"; };
+		09ACBBA11AB3FC8F007635CD /* catolico.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = catolico.mp4; sourceTree = "<group>"; };
+		09ACBBA21AB3FC8F007635CD /* Cielo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cielo.mp4; sourceTree = "<group>"; };
+		09ACBBA31AB3FC8F007635CD /* Club Aventureros.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Club Aventureros.mp4"; sourceTree = "<group>"; };
+		09ACBBA41AB3FC8F007635CD /* Club Conquistadores.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Club Conquistadores.mp4"; sourceTree = "<group>"; };
+		09ACBBA51AB3FC8F007635CD /* club Guias Mayores.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "club Guias Mayores.mp4"; sourceTree = "<group>"; };
+		09ACBBA61AB3FC8F007635CD /* colportor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = colportor.mp4; sourceTree = "<group>"; };
+		09ACBBA71AB3FC8F007635CD /* Cristiano.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cristiano.mp4; sourceTree = "<group>"; };
+		09ACBBA81AB3FC8F007635CD /* Cristo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cristo.mp4; sourceTree = "<group>"; };
+		09ACBBA91AB3FC8F007635CD /* culto divnino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "culto divnino.mp4"; sourceTree = "<group>"; };
+		09ACBBAA1AB3FC8F007635CD /* daniel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = daniel.mp4; sourceTree = "<group>"; };
+		09ACBBAB1AB3FC8F007635CD /* david.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = david.mp4; sourceTree = "<group>"; };
+		09ACBBAC1AB3FC8F007635CD /* Diablo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diablo.mp4; sourceTree = "<group>"; };
+		09ACBBAD1AB3FC8F007635CD /* Diaconisa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diaconisa.mp4; sourceTree = "<group>"; };
+		09ACBBAE1AB3FC8F007635CD /* Diacono.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Diacono.mp4; sourceTree = "<group>"; };
+		09ACBBAF1AB3FC8F007635CD /* Dios.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dios.mp4; sourceTree = "<group>"; };
+		09ACBBB01AB3FC8F007635CD /* Discipulo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Discipulo.mp4; sourceTree = "<group>"; };
+		09ACBBB11AB3FC8F007635CD /* distrito.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = distrito.mp4; sourceTree = "<group>"; };
+		09ACBBB21AB3FC8F007635CD /* Division (departamental).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Division (departamental).mp4"; sourceTree = "<group>"; };
+		09ACBBB31AB3FC8F007635CD /* eden.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eden.mp4; sourceTree = "<group>"; };
+		09ACBBB41AB3FC8F007635CD /* EGW.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = EGW.mp4; sourceTree = "<group>"; };
+		09ACBBB51AB3FC8F007635CD /* elias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elias.mp4; sourceTree = "<group>"; };
+		09ACBBB61AB3FC8F007635CD /* eliseo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eliseo.mp4; sourceTree = "<group>"; };
+		09ACBBB71AB3FC8F007635CD /* Emmanuel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emmanuel.mp4; sourceTree = "<group>"; };
+		09ACBBB81AB3FC8F007635CD /* Enoc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Enoc.mp4; sourceTree = "<group>"; };
+		09ACBBB91AB3FC8F007635CD /* Esau.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Esau.mp4; sourceTree = "<group>"; };
+		09ACBBBA1AB3FC8F007635CD /* escuela.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = escuela.mp4; sourceTree = "<group>"; };
+		09ACBBBB1AB3FC8F007635CD /* Espiritu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Espiritu.mp4; sourceTree = "<group>"; };
+		09ACBBBC1AB3FC8F007635CD /* esther.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = esther.mp4; sourceTree = "<group>"; };
+		09ACBBBD1AB3FC8F007635CD /* eternidad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = eternidad.mp4; sourceTree = "<group>"; };
+		09ACBBBE1AB3FC8F007635CD /* Eva.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eva.mp4; sourceTree = "<group>"; };
+		09ACBBBF1AB3FC8F007635CD /* Evangelio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Evangelio.mp4; sourceTree = "<group>"; };
+		09ACBBC01AB3FC8F007635CD /* Evangelios.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Evangelios.mp4; sourceTree = "<group>"; };
+		09ACBBC11AB3FC8F007635CD /* faraon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = faraon.mp4; sourceTree = "<group>"; };
+		09ACBBC21AB3FC8F007635CD /* Fariseo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fariseo.mp4; sourceTree = "<group>"; };
+		09ACBBC31AB3FC8F007635CD /* feliz.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = feliz.mp4; sourceTree = "<group>"; };
+		09ACBBC41AB3FC8F007635CD /* Filemon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Filemon.mp4; sourceTree = "<group>"; };
+		09ACBBC51AB3FC8F007635CD /* gloria.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gloria.mp4; sourceTree = "<group>"; };
+		09ACBBC61AB3FC8F007635CD /* goliat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = goliat.mp4; sourceTree = "<group>"; };
+		09ACBBC71AB3FC8F007635CD /* gomorra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gomorra.mp4; sourceTree = "<group>"; };
+		09ACBBC81AB3FC8F007635CD /* Gracia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gracia.mp4; sourceTree = "<group>"; };
+		09ACBBC91AB3FC8F007635CD /* hermano.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hermano.mp4; sourceTree = "<group>"; };
+		09ACBBCA1AB3FC8F007635CD /* Hijo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hijo.mp4; sourceTree = "<group>"; };
+		09ACBBCB1AB3FC8F007635CD /* himno.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = himno.mp4; sourceTree = "<group>"; };
+		09ACBBCC1AB3FC8F007635CD /* idolo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = idolo.mp4; sourceTree = "<group>"; };
+		09ACBBCD1AB3FC8F007635CD /* iglesia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iglesia.mp4; sourceTree = "<group>"; };
+		09ACBBCE1AB3FC8F007635CD /* infiel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = infiel.mp4; sourceTree = "<group>"; };
+		09ACBBCF1AB3FC8F007635CD /* Isaac.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Isaac.mp4; sourceTree = "<group>"; };
+		09ACBBD01AB3FC8F007635CD /* Isaias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Isaias.mp4; sourceTree = "<group>"; };
+		09ACBBD11AB3FC8F007635CD /* jacob.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jacob.mp4; sourceTree = "<group>"; };
+		09ACBBD21AB3FC8F007635CD /* Jehova.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jehova.mp4; sourceTree = "<group>"; };
+		09ACBBD31AB3FC8F007635CD /* jeremias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jeremias.mp4; sourceTree = "<group>"; };
+		09ACBBD41AB3FC8F007635CD /* jerico.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jerico.mp4; sourceTree = "<group>"; };
+		09ACBBD51AB3FC8F007635CD /* jerusalen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jerusalen.mp4; sourceTree = "<group>"; };
+		09ACBBD61AB3FC8F007635CD /* Jesus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jesus.mp4; sourceTree = "<group>"; };
+		09ACBBD71AB3FC8F007635CD /* Job.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Job.mp4; sourceTree = "<group>"; };
+		09ACBBD81AB3FC8F007635CD /* Jonas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jonas.mp4; sourceTree = "<group>"; };
+		09ACBBD91AB3FC8F007635CD /* Jose (Egipto).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jose (Egipto).mp4"; sourceTree = "<group>"; };
+		09ACBBDA1AB3FC8F007635CD /* jose (Jesus).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jose (Jesus).mp4"; sourceTree = "<group>"; };
+		09ACBBDB1AB3FC8F007635CD /* Juan el bautista.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Juan el bautista.mp4"; sourceTree = "<group>"; };
+		09ACBBDC1AB3FC8F007635CD /* juan evangelio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "juan evangelio.mp4"; sourceTree = "<group>"; };
+		09ACBBDD1AB3FC8F007635CD /* Juda (tribu).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Juda (tribu).mp4"; sourceTree = "<group>"; };
+		09ACBBDE1AB3FC8F007635CD /* judas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = judas.mp4; sourceTree = "<group>"; };
+		09ACBBDF1AB3FC8F007635CD /* Lecciòn (Esc. sabatica).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lecciòn (Esc. sabatica).mp4"; sourceTree = "<group>"; };
+		09ACBBE01AB3FC8F007635CD /* Lepra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lepra.mp4; sourceTree = "<group>"; };
+		09ACBBE11AB3FC8F007635CD /* ley.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ley.mp4; sourceTree = "<group>"; };
+		09ACBBE21AB3FC8F007635CD /* loor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loor.mp4; sourceTree = "<group>"; };
+		09ACBBE31AB3FC8F007635CD /* lucas discipulo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lucas discipulo.mp4"; sourceTree = "<group>"; };
+		09ACBBE41AB3FC8F007635CD /* lucas evangelio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lucas evangelio.mp4"; sourceTree = "<group>"; };
+		09ACBBE51AB3FC8F007635CD /* mandamientos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mandamientos.mp4; sourceTree = "<group>"; };
+		09ACBBE61AB3FC8F007635CD /* marcos evangelio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "marcos evangelio.mp4"; sourceTree = "<group>"; };
+		09ACBBE71AB3FC8F007635CD /* maria (Jesus).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "maria (Jesus).mp4"; sourceTree = "<group>"; };
+		09ACBBE81AB3FC8F007635CD /* mateo evangelio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mateo evangelio.mp4"; sourceTree = "<group>"; };
+		09ACBBE91AB3FC8F007635CD /* matinal (devocional).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "matinal (devocional).mp4"; sourceTree = "<group>"; };
+		09ACBBEA1AB3FC8F007635CD /* Mesias.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mesias.mp4; sourceTree = "<group>"; };
+		09ACBBEB1AB3FC8F007635CD /* miembro (persona).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "miembro (persona).mp4"; sourceTree = "<group>"; };
+		09ACBBEC1AB3FC8F007635CD /* misericordia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = misericordia.mp4; sourceTree = "<group>"; };
+		09ACBBED1AB3FC8F007635CD /* Mision (campo).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mision (campo).mp4"; sourceTree = "<group>"; };
+		09ACBBEE1AB3FC8F007635CD /* Misionero.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Misionero.mp4; sourceTree = "<group>"; };
+		09ACBBEF1AB3FC8F007635CD /* Moab.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moab.mp4; sourceTree = "<group>"; };
+		09ACBBF01AB3FC8F007635CD /* Moises.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moises.mp4; sourceTree = "<group>"; };
+		09ACBBF11AB3FC8F007635CD /* nabucodonosor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nabucodonosor.mp4; sourceTree = "<group>"; };
+		09ACBBF21AB3FC8F007635CD /* nazareth.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nazareth.mp4; sourceTree = "<group>"; };
+		09ACBBF31AB3FC8F007635CD /* Ninive.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ninive.mp4; sourceTree = "<group>"; };
+		09ACBBF41AB3FC8F007635CD /* Noe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Noe.mp4; sourceTree = "<group>"; };
+		09ACBBF51AB3FC8F007635CD /* Noemi (Ruth).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Noemi (Ruth).mp4"; sourceTree = "<group>"; };
+		09ACBBF61AB3FC8F007635CD /* nuevo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nuevo.mp4; sourceTree = "<group>"; };
+		09ACBBF71AB3FC8F007635CD /* ofrenda.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ofrenda.mp4; sourceTree = "<group>"; };
+		09ACBBF81AB3FC8F007635CD /* oh.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oh.mp4; sourceTree = "<group>"; };
+		09ACBBF91AB3FC8F007635CD /* Onesimo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onesimo.mp4; sourceTree = "<group>"; };
+		09ACBBFA1AB3FC8F007635CD /* oracion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = oracion.mp4; sourceTree = "<group>"; };
+		09ACBBFB1AB3FC8F007635CD /* Orfa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orfa.mp4; sourceTree = "<group>"; };
+		09ACBBFC1AB3FC8F007635CD /* pablo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pablo.mp4; sourceTree = "<group>"; };
+		09ACBBFD1AB3FC8F007635CD /* Padre.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Padre.mp4; sourceTree = "<group>"; };
+		09ACBBFE1AB3FC8F007635CD /* Papa catolico.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Papa catolico.mp4"; sourceTree = "<group>"; };
+		09ACBBFF1AB3FC8F007635CD /* Pastor (Iglesia).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pastor (Iglesia).mp4"; sourceTree = "<group>"; };
+		09ACBC001AB3FC8F007635CD /* Pastor (rebaño).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pastor (rebaño).mp4"; sourceTree = "<group>"; };
+		09ACBC011AB3FC8F007635CD /* Pecado.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pecado.mp4; sourceTree = "<group>"; };
+		09ACBC021AB3FC8F007635CD /* pedro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pedro.mp4; sourceTree = "<group>"; };
+		09ACBC031AB3FC90007635CD /* predicar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = predicar.mp4; sourceTree = "<group>"; };
+		09ACBC041AB3FC90007635CD /* Profecia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Profecia.mp4; sourceTree = "<group>"; };
+		09ACBC051AB3FC90007635CD /* Profeta.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Profeta.mp4; sourceTree = "<group>"; };
+		09ACBC061AB3FC90007635CD /* reverencia.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reverencia.mp4; sourceTree = "<group>"; };
+		09ACBC071AB3FC90007635CD /* Roma.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roma.mp4; sourceTree = "<group>"; };
+		09ACBC081AB3FC90007635CD /* ruth.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ruth.mp4; sourceTree = "<group>"; };
+		09ACBC091AB3FC90007635CD /* sabado.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sabado.mp4; sourceTree = "<group>"; };
+		09ACBC0A1AB3FC90007635CD /* salmos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = salmos.mp4; sourceTree = "<group>"; };
+		09ACBC0B1AB3FC90007635CD /* salomon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = salomon.mp4; sourceTree = "<group>"; };
+		09ACBC0C1AB3FC90007635CD /* samuel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = samuel.mp4; sourceTree = "<group>"; };
+		09ACBC0D1AB3FC90007635CD /* Sanson.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sanson.mp4; sourceTree = "<group>"; };
+		09ACBC0E1AB3FC90007635CD /* Santo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Santo.mp4; sourceTree = "<group>"; };
+		09ACBC0F1AB3FC90007635CD /* semana.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semana.mp4; sourceTree = "<group>"; };
+		09ACBC101AB3FC90007635CD /* Señor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Señor.mp4"; sourceTree = "<group>"; };
+		09ACBC111AB3FC90007635CD /* sermon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sermon.mp4; sourceTree = "<group>"; };
+		09ACBC121AB3FC90007635CD /* silencio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = silencio.mp4; sourceTree = "<group>"; };
+		09ACBC131AB3FC90007635CD /* templo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = templo.mp4; sourceTree = "<group>"; };
+		09ACBC141AB3FC90007635CD /* testamento.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testamento.mp4; sourceTree = "<group>"; };
+		09ACBC151AB3FC90007635CD /* Timoteo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Timoteo.mp4; sourceTree = "<group>"; };
+		09ACBC161AB3FC90007635CD /* Union (departamental).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Union (departamental).mp4"; sourceTree = "<group>"; };
+		09ACBC171AB3FC90007635CD /* versiculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = versiculo.mp4; sourceTree = "<group>"; };
+		09ACBCA81AB3FDDF007635CD /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = SordoMudos/VideoViewController.h; sourceTree = SOURCE_ROOT; };
+		09ACBCA91AB3FDDF007635CD /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = SordoMudos/VideoViewController.m; sourceTree = SOURCE_ROOT; };
+		09ACBCAB1AB3FF57007635CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09ACBCAD1AB4092B007635CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		09ACBCAF1AB5FAF2007635CD /* FraseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FraseViewController.h; sourceTree = "<group>"; };
+		09ACBCB01AB5FAF2007635CD /* FraseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FraseViewController.m; sourceTree = "<group>"; };
+		09ACBCB21AB68913007635CD /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		09ACBCB31AB68913007635CD /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		09ACBCB51AB689DA007635CD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0903FAA41ADB4E2D008A4F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E71841AABDE6B00AA822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095293E71ADB89F100F18405 /* NotificationCenter.framework in Frameworks */,
+				095293E51ADB89DF00F18405 /* WatchKit.framework in Frameworks */,
+				095293E31ADB89C400F18405 /* CoreFoundation.framework in Frameworks */,
+				09ACBCB61AB689DA007635CD /* AVKit.framework in Frameworks */,
+				09ACBCAE1AB4092B007635CD /* MediaPlayer.framework in Frameworks */,
+				09ACBCAC1AB3FF57007635CD /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E71A01AABDE6B00AA822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0903FAA81ADB4E2E008A4F48 /* SordoMudos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				095293D91ADB7EE600F18405 /* SordoMudos WatchKit Extension.entitlements */,
+				0903FAAC1ADB4E2E008A4F48 /* InterfaceController.h */,
+				0903FAAD1ADB4E2E008A4F48 /* InterfaceController.m */,
+				0903FAAF1ADB4E2E008A4F48 /* NotificationController.h */,
+				0903FAB01ADB4E2E008A4F48 /* NotificationController.m */,
+				0903FAB21ADB4E2E008A4F48 /* Images.xcassets */,
+				0903FAA91ADB4E2E008A4F48 /* Supporting Files */,
+			);
+			path = "SordoMudos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0903FAA91ADB4E2E008A4F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0903FAAA1ADB4E2E008A4F48 /* Info.plist */,
+				0903FAAB1ADB4E2E008A4F48 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0903FABA1ADB4E2E008A4F48 /* SordoMudos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0903FABD1ADB4E2E008A4F48 /* Interface.storyboard */,
+				0903FAC01ADB4E2E008A4F48 /* Images.xcassets */,
+				0903FABB1ADB4E2E008A4F48 /* Supporting Files */,
+			);
+			path = "SordoMudos WatchKit App";
+			sourceTree = "<group>";
+		};
+		0903FABB1ADB4E2E008A4F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0903FAD11ADB6662008A4F48 /* Icon-98@2x.png */,
+				0903FACF1ADB6646008A4F48 /* Icon-72.png */,
+				0903FACC1ADB649D008A4F48 /* letras */,
+				0903FABC1ADB4E2E008A4F48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0903FACC1ADB649D008A4F48 /* letras */ = {
+			isa = PBXGroup;
+			children = (
+				095293A51ADB7B5400F18405 /*  .png */,
+				095293A61ADB7B5400F18405 /* b.png */,
+				095293A71ADB7B5400F18405 /* c.png */,
+				095293A81ADB7B5400F18405 /* d.png */,
+				095293A91ADB7B5400F18405 /* e.png */,
+				095293AA1ADB7B5400F18405 /* f.png */,
+				095293AB1ADB7B5400F18405 /* g.png */,
+				095293AC1ADB7B5400F18405 /* h.png */,
+				095293AD1ADB7B5400F18405 /* i.png */,
+				095293AE1ADB7B5400F18405 /* j.png */,
+				095293AF1ADB7B5400F18405 /* k.png */,
+				095293B01ADB7B5400F18405 /* l.png */,
+				095293B11ADB7B5400F18405 /* m.png */,
+				095293B21ADB7B5400F18405 /* n.png */,
+				095293B31ADB7B5400F18405 /* o.png */,
+				095293B41ADB7B5400F18405 /* p.png */,
+				095293B51ADB7B5400F18405 /* q.png */,
+				095293B61ADB7B5400F18405 /* r.png */,
+				095293B71ADB7B5400F18405 /* s.png */,
+				095293B81ADB7B5400F18405 /* t.png */,
+				095293B91ADB7B5400F18405 /* u.png */,
+				095293BA1ADB7B5400F18405 /* v.png */,
+				095293BB1ADB7B5400F18405 /* w.png */,
+				095293BC1ADB7B5400F18405 /* x.png */,
+				095293BD1ADB7B5400F18405 /* y.png */,
+				095293BE1ADB7B5400F18405 /* z.png */,
+				0903FACD1ADB64B3008A4F48 /* a.png */,
+			);
+			name = letras;
+			sourceTree = "<group>";
+		};
+		095293DB1ADB824000F18405 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				095293DC1ADB824000F18405 /* MMWormhole.h */,
+				095293DD1ADB824000F18405 /* MMWormhole.m */,
+			);
+			name = Source;
+			path = "../../../../../Downloads/MMWormhole-master/Source";
+			sourceTree = "<group>";
+		};
+		095E717E1AABDE6B00AA822D = {
+			isa = PBXGroup;
+			children = (
+				095293E61ADB89F100F18405 /* NotificationCenter.framework */,
+				095293E41ADB89DF00F18405 /* WatchKit.framework */,
+				095293E21ADB89C400F18405 /* CoreFoundation.framework */,
+				09ACBCB51AB689DA007635CD /* AVKit.framework */,
+				09ACBCAD1AB4092B007635CD /* MediaPlayer.framework */,
+				09ACBCAB1AB3FF57007635CD /* AVFoundation.framework */,
+				095E71891AABDE6B00AA822D /* SordoMudos */,
+				095E71A61AABDE6B00AA822D /* SordoMudosTests */,
+				0903FAA81ADB4E2E008A4F48 /* SordoMudos WatchKit Extension */,
+				0903FABA1ADB4E2E008A4F48 /* SordoMudos WatchKit App */,
+				095E71881AABDE6B00AA822D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		095E71881AABDE6B00AA822D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				095E71871AABDE6B00AA822D /* SordoMudos.app */,
+				095E71A31AABDE6B00AA822D /* SordoMudosTests.xctest */,
+				0903FAA71ADB4E2D008A4F48 /* SordoMudos WatchKit Extension.appex */,
+				0903FAB61ADB4E2E008A4F48 /* SordoMudos WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		095E71891AABDE6B00AA822D /* SordoMudos */ = {
+			isa = PBXGroup;
+			children = (
+				095293DB1ADB824000F18405 /* Source */,
+				095293DA1ADB802D00F18405 /* SordoMudos.entitlements */,
+				09ACBB871AB3FC8F007635CD /* 2 */,
+				095E718E1AABDE6B00AA822D /* AppDelegate.h */,
+				095E718F1AABDE6B00AA822D /* AppDelegate.m */,
+				09ACBCAF1AB5FAF2007635CD /* FraseViewController.h */,
+				09ACBCB01AB5FAF2007635CD /* FraseViewController.m */,
+				095E71911AABDE6B00AA822D /* MasterViewController.h */,
+				095E71921AABDE6B00AA822D /* MasterViewController.m */,
+				095E71941AABDE6B00AA822D /* DetailViewController.h */,
+				095E71951AABDE6B00AA822D /* DetailViewController.m */,
+				09ACBCA81AB3FDDF007635CD /* VideoViewController.h */,
+				09ACBCA91AB3FDDF007635CD /* VideoViewController.m */,
+				09ACBCB21AB68913007635CD /* PlayerViewController.h */,
+				09ACBCB31AB68913007635CD /* PlayerViewController.m */,
+				095E71971AABDE6B00AA822D /* Main.storyboard */,
+				095E719A1AABDE6B00AA822D /* Images.xcassets */,
+				095E719C1AABDE6B00AA822D /* LaunchScreen.xib */,
+				095E718A1AABDE6B00AA822D /* Supporting Files */,
+				095293DF1ADB82D400F18405 /* MessageViewController.h */,
+				095293E01ADB82D400F18405 /* MessageViewController.m */,
+			);
+			path = SordoMudos;
+			sourceTree = "<group>";
+		};
+		095E718A1AABDE6B00AA822D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095E718B1AABDE6B00AA822D /* Info.plist */,
+				095E718C1AABDE6B00AA822D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		095E71A61AABDE6B00AA822D /* SordoMudosTests */ = {
+			isa = PBXGroup;
+			children = (
+				095E71A91AABDE6B00AA822D /* SordoMudosTests.m */,
+				095E71A71AABDE6B00AA822D /* Supporting Files */,
+			);
+			path = SordoMudosTests;
+			sourceTree = "<group>";
+		};
+		095E71A71AABDE6B00AA822D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				095E71A81AABDE6B00AA822D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09ACBB871AB3FC8F007635CD /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				09022FC81ADAD37800BE26D1 /* esperanza.mp4 */,
+				09ACBB881AB3FC8F007635CD /* Aaron.mp4 */,
+				09ACBB891AB3FC8F007635CD /* Abel.mp4 */,
+				09ACBB8A1AB3FC8F007635CD /* Abraham.mp4 */,
+				09ACBB8B1AB3FC8F007635CD /* Adan.mp4 */,
+				09ACBB8C1AB3FC8F007635CD /* adorar.mp4 */,
+				09ACBB8D1AB3FC8F007635CD /* Adulterio.mp4 */,
+				09ACBB8E1AB3FC8F007635CD /* adventista.mp4 */,
+				09ACBB8F1AB3FC8F007635CD /* alabar.mp4 */,
+				09ACBB901AB3FC8F007635CD /* Aleluya.mp4 */,
+				09ACBB911AB3FC8F007635CD /* altar.mp4 */,
+				09ACBB921AB3FC8F007635CD /* amen.mp4 */,
+				09ACBB931AB3FC8F007635CD /* Anciano (cargo).mp4 */,
+				09ACBB941AB3FC8F007635CD /* Angel.mp4 */,
+				09ACBB951AB3FC8F007635CD /* Antiguo.mp4 */,
+				09ACBB961AB3FC8F007635CD /* apocalipsis.mp4 */,
+				09ACBB971AB3FC8F007635CD /* apostol.mp4 */,
+				09ACBB981AB3FC8F007635CD /* Asociacion (campo).mp4 */,
+				09ACBB991AB3FC8F007635CD /* Ayuno.mp4 */,
+				09ACBB9A1AB3FC8F007635CD /* bautizar.mp4 */,
+				09ACBB9B1AB3FC8F007635CD /* Belen ciudad.mp4 */,
+				09ACBB9C1AB3FC8F007635CD /* Bendecir.mp4 */,
+				09ACBB9D1AB3FC8F007635CD /* Biblia.mp4 */,
+				09ACBB9E1AB3FC8F007635CD /* Booz.mp4 */,
+				09ACBB9F1AB3FC8F007635CD /* Cain.mp4 */,
+				09ACBBA01AB3FC8F007635CD /* capitulo.mp4 */,
+				09ACBBA11AB3FC8F007635CD /* catolico.mp4 */,
+				09ACBBA21AB3FC8F007635CD /* Cielo.mp4 */,
+				09ACBBA31AB3FC8F007635CD /* Club Aventureros.mp4 */,
+				09ACBBA41AB3FC8F007635CD /* Club Conquistadores.mp4 */,
+				09ACBBA51AB3FC8F007635CD /* club Guias Mayores.mp4 */,
+				09ACBBA61AB3FC8F007635CD /* colportor.mp4 */,
+				09ACBBA71AB3FC8F007635CD /* Cristiano.mp4 */,
+				09ACBBA81AB3FC8F007635CD /* Cristo.mp4 */,
+				09ACBBA91AB3FC8F007635CD /* culto divnino.mp4 */,
+				09ACBBAA1AB3FC8F007635CD /* daniel.mp4 */,
+				09ACBBAB1AB3FC8F007635CD /* david.mp4 */,
+				09ACBBAC1AB3FC8F007635CD /* Diablo.mp4 */,
+				09ACBBAD1AB3FC8F007635CD /* Diaconisa.mp4 */,
+				09ACBBAE1AB3FC8F007635CD /* Diacono.mp4 */,
+				09ACBBAF1AB3FC8F007635CD /* Dios.mp4 */,
+				09ACBBB01AB3FC8F007635CD /* Discipulo.mp4 */,
+				09ACBBB11AB3FC8F007635CD /* distrito.mp4 */,
+				09ACBBB21AB3FC8F007635CD /* Division (departamental).mp4 */,
+				09ACBBB31AB3FC8F007635CD /* eden.mp4 */,
+				09ACBBB41AB3FC8F007635CD /* EGW.mp4 */,
+				09ACBBB51AB3FC8F007635CD /* elias.mp4 */,
+				09ACBBB61AB3FC8F007635CD /* eliseo.mp4 */,
+				09ACBBB71AB3FC8F007635CD /* Emmanuel.mp4 */,
+				09ACBBB81AB3FC8F007635CD /* Enoc.mp4 */,
+				09ACBBB91AB3FC8F007635CD /* Esau.mp4 */,
+				09ACBBBA1AB3FC8F007635CD /* escuela.mp4 */,
+				09ACBBBB1AB3FC8F007635CD /* Espiritu.mp4 */,
+				09ACBBBC1AB3FC8F007635CD /* esther.mp4 */,
+				09ACBBBD1AB3FC8F007635CD /* eternidad.mp4 */,
+				09ACBBBE1AB3FC8F007635CD /* Eva.mp4 */,
+				09ACBBBF1AB3FC8F007635CD /* Evangelio.mp4 */,
+				09ACBBC01AB3FC8F007635CD /* Evangelios.mp4 */,
+				09ACBBC11AB3FC8F007635CD /* faraon.mp4 */,
+				09ACBBC21AB3FC8F007635CD /* Fariseo.mp4 */,
+				09ACBBC31AB3FC8F007635CD /* feliz.mp4 */,
+				09ACBBC41AB3FC8F007635CD /* Filemon.mp4 */,
+				09ACBBC51AB3FC8F007635CD /* gloria.mp4 */,
+				09ACBBC61AB3FC8F007635CD /* goliat.mp4 */,
+				09ACBBC71AB3FC8F007635CD /* gomorra.mp4 */,
+				09ACBBC81AB3FC8F007635CD /* Gracia.mp4 */,
+				09ACBBC91AB3FC8F007635CD /* hermano.mp4 */,
+				09ACBBCA1AB3FC8F007635CD /* Hijo.mp4 */,
+				09ACBBCB1AB3FC8F007635CD /* himno.mp4 */,
+				09ACBBCC1AB3FC8F007635CD /* idolo.mp4 */,
+				09ACBBCD1AB3FC8F007635CD /* iglesia.mp4 */,
+				09ACBBCE1AB3FC8F007635CD /* infiel.mp4 */,
+				09ACBBCF1AB3FC8F007635CD /* Isaac.mp4 */,
+				09ACBBD01AB3FC8F007635CD /* Isaias.mp4 */,
+				09ACBBD11AB3FC8F007635CD /* jacob.mp4 */,
+				09ACBBD21AB3FC8F007635CD /* Jehova.mp4 */,
+				09ACBBD31AB3FC8F007635CD /* jeremias.mp4 */,
+				09ACBBD41AB3FC8F007635CD /* jerico.mp4 */,
+				09ACBBD51AB3FC8F007635CD /* jerusalen.mp4 */,
+				09ACBBD61AB3FC8F007635CD /* Jesus.mp4 */,
+				09ACBBD71AB3FC8F007635CD /* Job.mp4 */,
+				09ACBBD81AB3FC8F007635CD /* Jonas.mp4 */,
+				09ACBBD91AB3FC8F007635CD /* Jose (Egipto).mp4 */,
+				09ACBBDA1AB3FC8F007635CD /* jose (Jesus).mp4 */,
+				09ACBBDB1AB3FC8F007635CD /* Juan el bautista.mp4 */,
+				09ACBBDC1AB3FC8F007635CD /* juan evangelio.mp4 */,
+				09ACBBDD1AB3FC8F007635CD /* Juda (tribu).mp4 */,
+				09ACBBDE1AB3FC8F007635CD /* judas.mp4 */,
+				09ACBBDF1AB3FC8F007635CD /* Lecciòn (Esc. sabatica).mp4 */,
+				09ACBBE01AB3FC8F007635CD /* Lepra.mp4 */,
+				09ACBBE11AB3FC8F007635CD /* ley.mp4 */,
+				09ACBBE21AB3FC8F007635CD /* loor.mp4 */,
+				09ACBBE31AB3FC8F007635CD /* lucas discipulo.mp4 */,
+				09ACBBE41AB3FC8F007635CD /* lucas evangelio.mp4 */,
+				09ACBBE51AB3FC8F007635CD /* mandamientos.mp4 */,
+				09ACBBE61AB3FC8F007635CD /* marcos evangelio.mp4 */,
+				09ACBBE71AB3FC8F007635CD /* maria (Jesus).mp4 */,
+				09ACBBE81AB3FC8F007635CD /* mateo evangelio.mp4 */,
+				09ACBBE91AB3FC8F007635CD /* matinal (devocional).mp4 */,
+				09ACBBEA1AB3FC8F007635CD /* Mesias.mp4 */,
+				09ACBBEB1AB3FC8F007635CD /* miembro (persona).mp4 */,
+				09ACBBEC1AB3FC8F007635CD /* misericordia.mp4 */,
+				09ACBBED1AB3FC8F007635CD /* Mision (campo).mp4 */,
+				09ACBBEE1AB3FC8F007635CD /* Misionero.mp4 */,
+				09ACBBEF1AB3FC8F007635CD /* Moab.mp4 */,
+				09ACBBF01AB3FC8F007635CD /* Moises.mp4 */,
+				09ACBBF11AB3FC8F007635CD /* nabucodonosor.mp4 */,
+				09ACBBF21AB3FC8F007635CD /* nazareth.mp4 */,
+				09ACBBF31AB3FC8F007635CD /* Ninive.mp4 */,
+				09ACBBF41AB3FC8F007635CD /* Noe.mp4 */,
+				09ACBBF51AB3FC8F007635CD /* Noemi (Ruth).mp4 */,
+				09ACBBF61AB3FC8F007635CD /* nuevo.mp4 */,
+				09ACBBF71AB3FC8F007635CD /* ofrenda.mp4 */,
+				09ACBBF81AB3FC8F007635CD /* oh.mp4 */,
+				09ACBBF91AB3FC8F007635CD /* Onesimo.mp4 */,
+				09ACBBFA1AB3FC8F007635CD /* oracion.mp4 */,
+				09ACBBFB1AB3FC8F007635CD /* Orfa.mp4 */,
+				09ACBBFC1AB3FC8F007635CD /* pablo.mp4 */,
+				09ACBBFD1AB3FC8F007635CD /* Padre.mp4 */,
+				09ACBBFE1AB3FC8F007635CD /* Papa catolico.mp4 */,
+				09ACBBFF1AB3FC8F007635CD /* Pastor (Iglesia).mp4 */,
+				09ACBC001AB3FC8F007635CD /* Pastor (rebaño).mp4 */,
+				09ACBC011AB3FC8F007635CD /* Pecado.mp4 */,
+				09ACBC021AB3FC8F007635CD /* pedro.mp4 */,
+				09ACBC031AB3FC90007635CD /* predicar.mp4 */,
+				09ACBC041AB3FC90007635CD /* Profecia.mp4 */,
+				09ACBC051AB3FC90007635CD /* Profeta.mp4 */,
+				09ACBC061AB3FC90007635CD /* reverencia.mp4 */,
+				09ACBC071AB3FC90007635CD /* Roma.mp4 */,
+				09ACBC081AB3FC90007635CD /* ruth.mp4 */,
+				09ACBC091AB3FC90007635CD /* sabado.mp4 */,
+				09ACBC0A1AB3FC90007635CD /* salmos.mp4 */,
+				09ACBC0B1AB3FC90007635CD /* salomon.mp4 */,
+				09ACBC0C1AB3FC90007635CD /* samuel.mp4 */,
+				09ACBC0D1AB3FC90007635CD /* Sanson.mp4 */,
+				09ACBC0E1AB3FC90007635CD /* Santo.mp4 */,
+				09ACBC0F1AB3FC90007635CD /* semana.mp4 */,
+				09ACBC101AB3FC90007635CD /* Señor.mp4 */,
+				09ACBC111AB3FC90007635CD /* sermon.mp4 */,
+				09ACBC121AB3FC90007635CD /* silencio.mp4 */,
+				09ACBC131AB3FC90007635CD /* templo.mp4 */,
+				09ACBC141AB3FC90007635CD /* testamento.mp4 */,
+				09ACBC151AB3FC90007635CD /* Timoteo.mp4 */,
+				09ACBC161AB3FC90007635CD /* Union (departamental).mp4 */,
+				09ACBC171AB3FC90007635CD /* versiculo.mp4 */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0903FAA61ADB4E2D008A4F48 /* SordoMudos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0903FAC81ADB4E2E008A4F48 /* Build configuration list for PBXNativeTarget "SordoMudos WatchKit Extension" */;
+			buildPhases = (
+				0903FAA31ADB4E2D008A4F48 /* Sources */,
+				0903FAA41ADB4E2D008A4F48 /* Frameworks */,
+				0903FAA51ADB4E2D008A4F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0903FAB91ADB4E2E008A4F48 /* PBXTargetDependency */,
+			);
+			name = "SordoMudos WatchKit Extension";
+			productName = "SordoMudos WatchKit Extension";
+			productReference = 0903FAA71ADB4E2D008A4F48 /* SordoMudos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0903FAB51ADB4E2E008A4F48 /* SordoMudos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0903FAC51ADB4E2E008A4F48 /* Build configuration list for PBXNativeTarget "SordoMudos WatchKit App" */;
+			buildPhases = (
+				0903FAB41ADB4E2E008A4F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SordoMudos WatchKit App";
+			productName = "SordoMudos WatchKit App";
+			productReference = 0903FAB61ADB4E2E008A4F48 /* SordoMudos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		095E71861AABDE6B00AA822D /* SordoMudos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095E71AD1AABDE6B00AA822D /* Build configuration list for PBXNativeTarget "SordoMudos" */;
+			buildPhases = (
+				095E71831AABDE6B00AA822D /* Sources */,
+				095E71841AABDE6B00AA822D /* Frameworks */,
+				095E71851AABDE6B00AA822D /* Resources */,
+				0903FACB1ADB4E2E008A4F48 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0903FAC31ADB4E2E008A4F48 /* PBXTargetDependency */,
+			);
+			name = SordoMudos;
+			productName = SordoMudos;
+			productReference = 095E71871AABDE6B00AA822D /* SordoMudos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		095E71A21AABDE6B00AA822D /* SordoMudosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095E71B01AABDE6B00AA822D /* Build configuration list for PBXNativeTarget "SordoMudosTests" */;
+			buildPhases = (
+				095E719F1AABDE6B00AA822D /* Sources */,
+				095E71A01AABDE6B00AA822D /* Frameworks */,
+				095E71A11AABDE6B00AA822D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095E71A51AABDE6B00AA822D /* PBXTargetDependency */,
+			);
+			name = SordoMudosTests;
+			productName = SordoMudosTests;
+			productReference = 095E71A31AABDE6B00AA822D /* SordoMudosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		095E717F1AABDE6B00AA822D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UMN;
+				TargetAttributes = {
+					0903FAA61ADB4E2D008A4F48 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = E8W3768MM9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0903FAB51ADB4E2E008A4F48 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = E8W3768MM9;
+					};
+					095E71861AABDE6B00AA822D = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = E8W3768MM9;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					095E71A21AABDE6B00AA822D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 095E71861AABDE6B00AA822D;
+					};
+				};
+			};
+			buildConfigurationList = 095E71821AABDE6B00AA822D /* Build configuration list for PBXProject "SordoMudos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 095E717E1AABDE6B00AA822D;
+			productRefGroup = 095E71881AABDE6B00AA822D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095E71861AABDE6B00AA822D /* SordoMudos */,
+				095E71A21AABDE6B00AA822D /* SordoMudosTests */,
+				0903FAA61ADB4E2D008A4F48 /* SordoMudos WatchKit Extension */,
+				0903FAB51ADB4E2E008A4F48 /* SordoMudos WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0903FAA51ADB4E2D008A4F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0903FAB31ADB4E2E008A4F48 /* Images.xcassets in Resources */,
+				0903FAB71ADB4E2E008A4F48 /* SordoMudos WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0903FAB41ADB4E2E008A4F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095293D41ADB7B5400F18405 /* v.png in Resources */,
+				095293C81ADB7B5400F18405 /* j.png in Resources */,
+				095293C41ADB7B5400F18405 /* f.png in Resources */,
+				095293CC1ADB7B5400F18405 /* n.png in Resources */,
+				095293D31ADB7B5400F18405 /* u.png in Resources */,
+				095293D81ADB7B5400F18405 /* z.png in Resources */,
+				095293D11ADB7B5400F18405 /* s.png in Resources */,
+				095293C21ADB7B5400F18405 /* d.png in Resources */,
+				095293C91ADB7B5400F18405 /* k.png in Resources */,
+				095293BF1ADB7B5400F18405 /*  .png in Resources */,
+				095293CE1ADB7B5400F18405 /* p.png in Resources */,
+				095293C61ADB7B5400F18405 /* h.png in Resources */,
+				095293C51ADB7B5400F18405 /* g.png in Resources */,
+				0903FACE1ADB64B3008A4F48 /* a.png in Resources */,
+				0903FAD01ADB6646008A4F48 /* Icon-72.png in Resources */,
+				095293CF1ADB7B5400F18405 /* q.png in Resources */,
+				095293D71ADB7B5400F18405 /* y.png in Resources */,
+				095293CB1ADB7B5400F18405 /* m.png in Resources */,
+				095293CA1ADB7B5400F18405 /* l.png in Resources */,
+				095293D21ADB7B5400F18405 /* t.png in Resources */,
+				095293C11ADB7B5400F18405 /* c.png in Resources */,
+				095293D01ADB7B5400F18405 /* r.png in Resources */,
+				095293C31ADB7B5400F18405 /* e.png in Resources */,
+				0903FABF1ADB4E2E008A4F48 /* Interface.storyboard in Resources */,
+				095293CD1ADB7B5400F18405 /* o.png in Resources */,
+				095293D61ADB7B5400F18405 /* x.png in Resources */,
+				0903FAD21ADB6662008A4F48 /* Icon-98@2x.png in Resources */,
+				0903FAC11ADB4E2E008A4F48 /* Images.xcassets in Resources */,
+				095293C01ADB7B5400F18405 /* b.png in Resources */,
+				095293C71ADB7B5400F18405 /* i.png in Resources */,
+				095293D51ADB7B5400F18405 /* w.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E71851AABDE6B00AA822D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ACBC6D1AB3FC90007635CD /* Juda (tribu).mp4 in Resources */,
+				09ACBC1E1AB3FC90007635CD /* adventista.mp4 in Resources */,
+				09ACBC371AB3FC90007635CD /* Cristiano.mp4 in Resources */,
+				09ACBC231AB3FC90007635CD /* Anciano (cargo).mp4 in Resources */,
+				09ACBC741AB3FC90007635CD /* lucas evangelio.mp4 in Resources */,
+				09ACBC351AB3FC90007635CD /* club Guias Mayores.mp4 in Resources */,
+				09ACBC581AB3FC90007635CD /* Gracia.mp4 in Resources */,
+				09ACBC4C1AB3FC90007635CD /* esther.mp4 in Resources */,
+				09ACBC841AB3FC90007635CD /* Noe.mp4 in Resources */,
+				09ACBC481AB3FC90007635CD /* Enoc.mp4 in Resources */,
+				09ACBC751AB3FC90007635CD /* mandamientos.mp4 in Resources */,
+				09ACBC991AB3FC90007635CD /* sabado.mp4 in Resources */,
+				09ACBC681AB3FC90007635CD /* Jonas.mp4 in Resources */,
+				09ACBC9D1AB3FC90007635CD /* Sanson.mp4 in Resources */,
+				09ACBC931AB3FC90007635CD /* predicar.mp4 in Resources */,
+				09ACBC501AB3FC90007635CD /* Evangelios.mp4 in Resources */,
+				09ACBC2D1AB3FC90007635CD /* Biblia.mp4 in Resources */,
+				09ACBC921AB3FC90007635CD /* pedro.mp4 in Resources */,
+				095E71991AABDE6B00AA822D /* Main.storyboard in Resources */,
+				09ACBC5E1AB3FC90007635CD /* infiel.mp4 in Resources */,
+				09ACBC671AB3FC90007635CD /* Job.mp4 in Resources */,
+				09ACBC211AB3FC90007635CD /* altar.mp4 in Resources */,
+				09ACBC4A1AB3FC90007635CD /* escuela.mp4 in Resources */,
+				09ACBC701AB3FC90007635CD /* Lepra.mp4 in Resources */,
+				09ACBC951AB3FC90007635CD /* Profeta.mp4 in Resources */,
+				09ACBC4F1AB3FC90007635CD /* Evangelio.mp4 in Resources */,
+				09ACBC421AB3FC90007635CD /* Division (departamental).mp4 in Resources */,
+				09ACBC461AB3FC90007635CD /* eliseo.mp4 in Resources */,
+				09ACBC591AB3FC90007635CD /* hermano.mp4 in Resources */,
+				09ACBC711AB3FC90007635CD /* ley.mp4 in Resources */,
+				09ACBC3E1AB3FC90007635CD /* Diacono.mp4 in Resources */,
+				09ACBC6F1AB3FC90007635CD /* Lecciòn (Esc. sabatica).mp4 in Resources */,
+				09ACBC7B1AB3FC90007635CD /* miembro (persona).mp4 in Resources */,
+				09ACBC521AB3FC90007635CD /* Fariseo.mp4 in Resources */,
+				09ACBC441AB3FC90007635CD /* EGW.mp4 in Resources */,
+				09ACBC331AB3FC90007635CD /* Club Aventureros.mp4 in Resources */,
+				09ACBC641AB3FC90007635CD /* jerico.mp4 in Resources */,
+				09ACBC611AB3FC90007635CD /* jacob.mp4 in Resources */,
+				09ACBC2F1AB3FC90007635CD /* Cain.mp4 in Resources */,
+				09ACBC251AB3FC90007635CD /* Antiguo.mp4 in Resources */,
+				09ACBC541AB3FC90007635CD /* Filemon.mp4 in Resources */,
+				09ACBCA31AB3FC90007635CD /* templo.mp4 in Resources */,
+				09ACBC9C1AB3FC90007635CD /* samuel.mp4 in Resources */,
+				09ACBC271AB3FC90007635CD /* apostol.mp4 in Resources */,
+				09ACBC5B1AB3FC90007635CD /* himno.mp4 in Resources */,
+				09ACBC181AB3FC90007635CD /* Aaron.mp4 in Resources */,
+				09ACBC491AB3FC90007635CD /* Esau.mp4 in Resources */,
+				09ACBC3C1AB3FC90007635CD /* Diablo.mp4 in Resources */,
+				09ACBC281AB3FC90007635CD /* Asociacion (campo).mp4 in Resources */,
+				09ACBCA41AB3FC90007635CD /* testamento.mp4 in Resources */,
+				09ACBC811AB3FC90007635CD /* nabucodonosor.mp4 in Resources */,
+				09ACBC981AB3FC90007635CD /* ruth.mp4 in Resources */,
+				09ACBC471AB3FC90007635CD /* Emmanuel.mp4 in Resources */,
+				09022FC91ADAD37800BE26D1 /* esperanza.mp4 in Resources */,
+				09ACBCA21AB3FC90007635CD /* silencio.mp4 in Resources */,
+				09ACBCA61AB3FC90007635CD /* Union (departamental).mp4 in Resources */,
+				09ACBC381AB3FC90007635CD /* Cristo.mp4 in Resources */,
+				09ACBC4D1AB3FC90007635CD /* eternidad.mp4 in Resources */,
+				09ACBC1C1AB3FC90007635CD /* adorar.mp4 in Resources */,
+				09ACBC1A1AB3FC90007635CD /* Abraham.mp4 in Resources */,
+				09ACBC6A1AB3FC90007635CD /* jose (Jesus).mp4 in Resources */,
+				09ACBCA51AB3FC90007635CD /* Timoteo.mp4 in Resources */,
+				09ACBC3F1AB3FC90007635CD /* Dios.mp4 in Resources */,
+				09ACBCA71AB3FC90007635CD /* versiculo.mp4 in Resources */,
+				09ACBC4E1AB3FC90007635CD /* Eva.mp4 in Resources */,
+				09ACBC771AB3FC90007635CD /* maria (Jesus).mp4 in Resources */,
+				09ACBC3B1AB3FC90007635CD /* david.mp4 in Resources */,
+				09ACBC401AB3FC90007635CD /* Discipulo.mp4 in Resources */,
+				09ACBC601AB3FC90007635CD /* Isaias.mp4 in Resources */,
+				095E719E1AABDE6B00AA822D /* LaunchScreen.xib in Resources */,
+				09ACBC2B1AB3FC90007635CD /* Belen ciudad.mp4 in Resources */,
+				09ACBC861AB3FC90007635CD /* nuevo.mp4 in Resources */,
+				09ACBC821AB3FC90007635CD /* nazareth.mp4 in Resources */,
+				09ACBC7E1AB3FC90007635CD /* Misionero.mp4 in Resources */,
+				09ACBC9B1AB3FC90007635CD /* salomon.mp4 in Resources */,
+				09ACBC311AB3FC90007635CD /* catolico.mp4 in Resources */,
+				09ACBC5D1AB3FC90007635CD /* iglesia.mp4 in Resources */,
+				09ACBC8E1AB3FC90007635CD /* Papa catolico.mp4 in Resources */,
+				09ACBC341AB3FC90007635CD /* Club Conquistadores.mp4 in Resources */,
+				09ACBC6E1AB3FC90007635CD /* judas.mp4 in Resources */,
+				095E719B1AABDE6B00AA822D /* Images.xcassets in Resources */,
+				09ACBC531AB3FC90007635CD /* feliz.mp4 in Resources */,
+				09ACBC9A1AB3FC90007635CD /* salmos.mp4 in Resources */,
+				09ACBC221AB3FC90007635CD /* amen.mp4 in Resources */,
+				09ACBC8B1AB3FC90007635CD /* Orfa.mp4 in Resources */,
+				09ACBC301AB3FC90007635CD /* capitulo.mp4 in Resources */,
+				09ACBC5F1AB3FC90007635CD /* Isaac.mp4 in Resources */,
+				09ACBC561AB3FC90007635CD /* goliat.mp4 in Resources */,
+				09ACBC651AB3FC90007635CD /* jerusalen.mp4 in Resources */,
+				09ACBC201AB3FC90007635CD /* Aleluya.mp4 in Resources */,
+				09ACBC911AB3FC90007635CD /* Pecado.mp4 in Resources */,
+				09ACBC881AB3FC90007635CD /* oh.mp4 in Resources */,
+				09ACBC2C1AB3FC90007635CD /* Bendecir.mp4 in Resources */,
+				09ACBC511AB3FC90007635CD /* faraon.mp4 in Resources */,
+				09ACBC721AB3FC90007635CD /* loor.mp4 in Resources */,
+				09ACBC1D1AB3FC90007635CD /* Adulterio.mp4 in Resources */,
+				09ACBC361AB3FC90007635CD /* colportor.mp4 in Resources */,
+				09ACBC411AB3FC90007635CD /* distrito.mp4 in Resources */,
+				09ACBC8D1AB3FC90007635CD /* Padre.mp4 in Resources */,
+				09ACBC431AB3FC90007635CD /* eden.mp4 in Resources */,
+				09ACBC9E1AB3FC90007635CD /* Santo.mp4 in Resources */,
+				09ACBC1F1AB3FC90007635CD /* alabar.mp4 in Resources */,
+				09ACBC781AB3FC90007635CD /* mateo evangelio.mp4 in Resources */,
+				09ACBC261AB3FC90007635CD /* apocalipsis.mp4 in Resources */,
+				09ACBC2A1AB3FC90007635CD /* bautizar.mp4 in Resources */,
+				09ACBC3A1AB3FC90007635CD /* daniel.mp4 in Resources */,
+				09ACBC7D1AB3FC90007635CD /* Mision (campo).mp4 in Resources */,
+				09ACBC971AB3FC90007635CD /* Roma.mp4 in Resources */,
+				09ACBC801AB3FC90007635CD /* Moises.mp4 in Resources */,
+				09ACBC451AB3FC90007635CD /* elias.mp4 in Resources */,
+				09ACBC291AB3FC90007635CD /* Ayuno.mp4 in Resources */,
+				09ACBC5A1AB3FC90007635CD /* Hijo.mp4 in Resources */,
+				09ACBC961AB3FC90007635CD /* reverencia.mp4 in Resources */,
+				09ACBC7C1AB3FC90007635CD /* misericordia.mp4 in Resources */,
+				09ACBCA01AB3FC90007635CD /* Señor.mp4 in Resources */,
+				09ACBC391AB3FC90007635CD /* culto divnino.mp4 in Resources */,
+				09ACBC901AB3FC90007635CD /* Pastor (rebaño).mp4 in Resources */,
+				09ACBC761AB3FC90007635CD /* marcos evangelio.mp4 in Resources */,
+				09ACBC1B1AB3FC90007635CD /* Adan.mp4 in Resources */,
+				09ACBC6C1AB3FC90007635CD /* juan evangelio.mp4 in Resources */,
+				09ACBC8A1AB3FC90007635CD /* oracion.mp4 in Resources */,
+				09ACBC631AB3FC90007635CD /* jeremias.mp4 in Resources */,
+				09ACBC831AB3FC90007635CD /* Ninive.mp4 in Resources */,
+				09ACBC7F1AB3FC90007635CD /* Moab.mp4 in Resources */,
+				09ACBC3D1AB3FC90007635CD /* Diaconisa.mp4 in Resources */,
+				09ACBC891AB3FC90007635CD /* Onesimo.mp4 in Resources */,
+				09ACBC661AB3FC90007635CD /* Jesus.mp4 in Resources */,
+				09ACBC871AB3FC90007635CD /* ofrenda.mp4 in Resources */,
+				09ACBC4B1AB3FC90007635CD /* Espiritu.mp4 in Resources */,
+				09ACBC621AB3FC90007635CD /* Jehova.mp4 in Resources */,
+				09ACBC2E1AB3FC90007635CD /* Booz.mp4 in Resources */,
+				09ACBC571AB3FC90007635CD /* gomorra.mp4 in Resources */,
+				09ACBC9F1AB3FC90007635CD /* semana.mp4 in Resources */,
+				09ACBC791AB3FC90007635CD /* matinal (devocional).mp4 in Resources */,
+				09ACBCA11AB3FC90007635CD /* sermon.mp4 in Resources */,
+				09ACBC7A1AB3FC90007635CD /* Mesias.mp4 in Resources */,
+				09ACBC941AB3FC90007635CD /* Profecia.mp4 in Resources */,
+				09ACBC8C1AB3FC90007635CD /* pablo.mp4 in Resources */,
+				09ACBC191AB3FC90007635CD /* Abel.mp4 in Resources */,
+				09ACBC851AB3FC90007635CD /* Noemi (Ruth).mp4 in Resources */,
+				09ACBC8F1AB3FC90007635CD /* Pastor (Iglesia).mp4 in Resources */,
+				09ACBC551AB3FC90007635CD /* gloria.mp4 in Resources */,
+				09ACBC321AB3FC90007635CD /* Cielo.mp4 in Resources */,
+				09ACBC6B1AB3FC90007635CD /* Juan el bautista.mp4 in Resources */,
+				09ACBC241AB3FC90007635CD /* Angel.mp4 in Resources */,
+				09ACBC731AB3FC90007635CD /* lucas discipulo.mp4 in Resources */,
+				09ACBC691AB3FC90007635CD /* Jose (Egipto).mp4 in Resources */,
+				09ACBC5C1AB3FC90007635CD /* idolo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E71A11AABDE6B00AA822D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0903FAA31ADB4E2D008A4F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0903FAB11ADB4E2E008A4F48 /* NotificationController.m in Sources */,
+				0903FAAE1ADB4E2E008A4F48 /* InterfaceController.m in Sources */,
+				095293EC1ADB8D7200F18405 /* MMWormhole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E71831AABDE6B00AA822D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ACBCB41AB68913007635CD /* PlayerViewController.m in Sources */,
+				09ACBCAA1AB3FDDF007635CD /* VideoViewController.m in Sources */,
+				095E71901AABDE6B00AA822D /* AppDelegate.m in Sources */,
+				095E71931AABDE6B00AA822D /* MasterViewController.m in Sources */,
+				095E718D1AABDE6B00AA822D /* main.m in Sources */,
+				09ACBCB11AB5FAF2007635CD /* FraseViewController.m in Sources */,
+				095293E11ADB82D400F18405 /* MessageViewController.m in Sources */,
+				095293DE1ADB824000F18405 /* MMWormhole.m in Sources */,
+				095E71961AABDE6B00AA822D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095E719F1AABDE6B00AA822D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095E71AA1AABDE6B00AA822D /* SordoMudosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0903FAB91ADB4E2E008A4F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0903FAB51ADB4E2E008A4F48 /* SordoMudos WatchKit App */;
+			targetProxy = 0903FAB81ADB4E2E008A4F48 /* PBXContainerItemProxy */;
+		};
+		0903FAC31ADB4E2E008A4F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0903FAA61ADB4E2D008A4F48 /* SordoMudos WatchKit Extension */;
+			targetProxy = 0903FAC21ADB4E2E008A4F48 /* PBXContainerItemProxy */;
+		};
+		095E71A51AABDE6B00AA822D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095E71861AABDE6B00AA822D /* SordoMudos */;
+			targetProxy = 095E71A41AABDE6B00AA822D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0903FABD1ADB4E2E008A4F48 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0903FABE1ADB4E2E008A4F48 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		095E71971AABDE6B00AA822D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095E71981AABDE6B00AA822D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		095E719C1AABDE6B00AA822D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				095E719D1AABDE6B00AA822D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0903FAC61ADB4E2E008A4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SordoMudos_WatchKit_Extension;
+				INFOPLIST_FILE = "SordoMudos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0903FAC71ADB4E2E008A4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = SordoMudos_WatchKit_Extension;
+				INFOPLIST_FILE = "SordoMudos WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0903FAC91ADB4E2E008A4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SordoMudos WatchKit Extension/SordoMudos WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SordoMudos WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0903FACA1ADB4E2E008A4F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SordoMudos WatchKit Extension/SordoMudos WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SordoMudos WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		095E71AB1AABDE6B00AA822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Rivera Mendoza (E8W3768MM9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Rivera Mendoza (E8W3768MM9)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		095E71AC1AABDE6B00AA822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Rivera Mendoza (E8W3768MM9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Rivera Mendoza (E8W3768MM9)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		095E71AE1AABDE6B00AA822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SordoMudos/SordoMudos.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SordoMudos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		095E71AF1AABDE6B00AA822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SordoMudos/SordoMudos.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SordoMudos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		095E71B11AABDE6B00AA822D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SordoMudosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SordoMudos.app/SordoMudos";
+			};
+			name = Debug;
+		};
+		095E71B21AABDE6B00AA822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SordoMudosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SordoMudos.app/SordoMudos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0903FAC51ADB4E2E008A4F48 /* Build configuration list for PBXNativeTarget "SordoMudos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0903FAC61ADB4E2E008A4F48 /* Debug */,
+				0903FAC71ADB4E2E008A4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0903FAC81ADB4E2E008A4F48 /* Build configuration list for PBXNativeTarget "SordoMudos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0903FAC91ADB4E2E008A4F48 /* Debug */,
+				0903FACA1ADB4E2E008A4F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095E71821AABDE6B00AA822D /* Build configuration list for PBXProject "SordoMudos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095E71AB1AABDE6B00AA822D /* Debug */,
+				095E71AC1AABDE6B00AA822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095E71AD1AABDE6B00AA822D /* Build configuration list for PBXNativeTarget "SordoMudos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095E71AE1AABDE6B00AA822D /* Debug */,
+				095E71AF1AABDE6B00AA822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095E71B01AABDE6B00AA822D /* Build configuration list for PBXNativeTarget "SordoMudosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095E71B11AABDE6B00AA822D /* Debug */,
+				095E71B21AABDE6B00AA822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 095E717F1AABDE6B00AA822D /* Project object */;
+}
